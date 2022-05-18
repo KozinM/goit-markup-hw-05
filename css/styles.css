@@ -37,9 +37,6 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
 }
-.team.card.text {
-  /* display: inline-block;
-  min-width:270px; */
   font-size: 16px;
   line-height: 1.2;
   text-align: center;
@@ -352,15 +349,9 @@ img {
   padding-top: 30px;
   padding-bottom: 30px;
 }
-/* .team.card.img {
-  margin-bottom: 30px;
-} */
 .team.card.title {
   margin-bottom: 10px;
 }
-/* .team.card.text {
-  margin-bottom: 30px;
-} */
 .bttm {
   padding-top: 60px;
   padding-bottom: 60px;
@@ -439,9 +430,7 @@ img {
   align-items: center;
   justify-content: center;
 }
-/* .studio-contacts-link:hover{
-  color:var(--active-color);
-} */
+
 .contact-icon {
   display: inline-block;
   fill: var(--ordinary-text);
@@ -468,9 +457,6 @@ img {
 
   border-radius: 50%;
 }
-/* .social-icon{
-  fill: var(--ordinary-text);
-} */
 .socials-link:hover,
 .socials-link:focus {
   background-color: var(--active-color);
@@ -490,8 +476,6 @@ img {
 
 .clients.list {
   display: flex;
-  /*   align-items: center;
-  justify-content: center; */
 }
 .clients-link {
   display: flex;
@@ -527,7 +511,6 @@ img {
 }
 .strength-div-block {
   display: flex;
-  /* width: 270px; */
   height: 120px;
   margin-bottom:30px;
   align-items: center;
@@ -535,12 +518,7 @@ img {
   border-radius: 4px;
   background: var(--button-background);
 }
-/* .strength-div-block:not(:last-child) {
-  margin-right: 30px;
-} */
-/* .strength-div-block:not(:last-child) {
-  margin-bottom: 30px;
-} */
+
 .footer-container {
   display: flex;
   align-items: baseline;
@@ -549,10 +527,7 @@ img {
   margin-right: 70px;
 }
 .footer-social-title {
-  /* display: block; */
-  /*   font-family: "Roboto", sans-serif;
-  font-style: normal; */
-  /* padding-top: 12px; */
+
   margin-bottom: 20px;
   font-weight: 700;
   font-size: 14px;
