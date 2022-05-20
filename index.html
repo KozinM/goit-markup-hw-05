@@ -26,19 +26,19 @@
         >
         <ul class="header navigation cards">
           <li class="header navigation card">
-            <a class="link current" href="index.html">Студия</a>
+            <a class="nav-link link current" href="index.html">Студия</a>
           </li>
           <li class="header navigation card">
-            <a class="link" href="portfolio.html">Портфолио</a>
+            <a class="nav-link link" href="portfolio.html">Портфолио</a>
           </li>
           <li class="header navigation card">
-            <a class="link" href="">Контакты</a>
+            <a class="nav-link link" href="">Контакты</a>
           </li>
         </ul>
       </nav>
       <ul class="header contacts cards">
         <li class="header contacts card">
-          <a class="link" href="tel:+380961111111">
+          <a class="contact-link link" href="tel:+380961111111">
             <svg class="contact-icon" width="10" height="16">
               <use href="./images/icons.svg#icon-smartphone"></use>
             </svg>
@@ -46,7 +46,7 @@
           >
         </li>
         <li class="header contacts card">
-          <a class="link" href="mailto:info@devstudio.com">
+          <a class="contact-link link" href="mailto:info@devstudio.com">
             <svg class="contact-icon" width="16" height="12">
               <use href="./images/icons.svg#icon-envelope"></use>
             </svg>
@@ -61,9 +61,14 @@
       <section class="hero">
         <div class="container container-hero">
           <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
-          <button class="hero-btn" type="button">Заказать услугу</button>
+          <button data-modal-open class="hero-btn" type="button">Заказать услугу</button>
         </div>
       </section>
+      <div class="modal-backdrop is-hidden" data-modal>
+        <div class="modal-view">
+          <button data-modal-close>close</button>
+        </div>
+      </div>
       <section class="strength-section">
         <div class="container">
           <ul class="strength cards">
@@ -125,9 +130,10 @@
             <li class="we-do card">
               <img
                 src="./images/programming.jpg"
-                alt="программирование"
+                alt="десктопные приложения"
                 width="370"
               />
+              <p class="we-do-card-text">десктопные приложения</p>
             </li>
             <li class="we-do card">
               <img
@@ -135,9 +141,14 @@
                 alt="мобильные приложения"
                 width="370"
               />
+              <p class="we-do-card-text">мобильные приложения</p>
             </li>
             <li class="we-do card">
-              <img src="./images/design.jpg" alt="дизайн" width="370" />
+              <img
+                src="./images/design.jpg" 
+                alt="дизайнерские решения" 
+                width="370" />
+                <p class="we-do-card-text">дизайнерские решения</p>
             </li>
           </ul>
         </div>
@@ -542,5 +553,6 @@
         </div>
       </div>
     </footer>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
